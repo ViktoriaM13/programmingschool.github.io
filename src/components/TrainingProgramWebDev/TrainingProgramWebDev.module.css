@@ -1,0 +1,112 @@
+.trainingProgramWeb h2 {
+    margin-bottom: 0;
+}
+
+.block {
+    padding: 45px 0 46px 95px;
+    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    margin-bottom: 30px;
+}
+
+.offer p {
+    margin: 25px 0 119px;
+    max-width: 350px;
+}
+
+.trainingProgramWeb h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 27px;
+    padding: 17px 24px;
+}
+
+.moduleOne h3 {
+    background: #32BB52;
+}
+
+.moduleTwo h3 {
+    background: #94B9EE;
+}
+
+.moduleThree h3 {
+    background: #FFD643;
+}
+
+.moduleFour h3 {
+    background: #EC8869;
+}
+
+.moduleFive h3 {
+    background: #C4C4C4;
+}
+
+.block ul {
+    line-height: 1.25em;
+    padding: 0 0 0 11px;
+    max-width: 350px;
+}
+
+.block ul p {
+    line-height: 1.25em;
+    margin: 0 0 0 9px;
+}
+
+.text {
+    max-width: 350px;
+    margin: 115px auto 0;
+    font-size: 18px;
+}
+
+/* ------- Media Queries ------- */
+
+/* 991-1199px */
+@media screen and (max-width: 1199px) {
+    .block {
+        padding-left: 45px;
+    }
+    .offer p {
+        margin: 18px 0 75px;
+    }
+}
+
+/* 767-991px */
+@media screen and (max-width: 991px) {
+    .block {
+        padding-left: 26px;
+    }
+    .block ul {
+        padding-right: 11px;
+        max-width: 100%;
+    }
+}
+
+/* 575-767px */
+@media screen and (max-width: 767px) {
+    .trainingProgramWeb h2 {
+        font-size: 18px;
+    }
+    .offer p {
+        font-size: 15px;
+        max-width: 330px;
+        margin: 14px 0;
+    }
+    .trainingProgramWeb h3 {
+        font-size: 18px;
+    }
+    .block ul p {
+        font-size: 15px;
+    }
+    .text {
+        text-align: center;
+        max-width: 100%;
+        margin-top: 40px;
+        font-size: 15px;
+    }
+}
+
+/* 320-575px */
+@media screen and (max-width: 575px) {
+
+}

@@ -1,0 +1,111 @@
+.features {
+    padding: 37px 0 17px;
+}
+
+.features h2 {
+    margin-bottom: 27px;
+}
+
+.features h2:before {
+    content: '';
+    display: block;
+    width: 73px;
+    height: 5px;
+    background: #F23F3F;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    margin: 0 auto 26px;
+}
+
+.features h4 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card {
+    margin-bottom: 81px;
+    background: transparent;
+}
+
+.wrapper {
+    height: 141px;
+}
+
+.features i {
+    font-size: 66px;
+    color: #F23F3F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icon {
+    height: 100%;
+}
+
+.icon_students {
+    max-height: 80px;
+}
+
+.icon_brain {
+    max-height: 95px;
+}
+
+.icon_time {
+    max-height: 90px;
+}
+
+.icon_tablet {
+    max-height: 105px;
+}
+
+.icon_file {
+    max-height: 95px;
+}
+
+/* ------- Media Queries ------- */
+
+/* 991-1199px */
+@media screen and (max-width: 1199px) {
+	
+}
+
+/* 767-991px */
+@media screen and (max-width: 991px) {
+    
+}
+
+/* 575-767px */
+@media screen and (max-width: 767px) {
+	.features {
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+    .card {
+        margin-bottom: 45px;
+    }
+}
+
+/* 320-575px */
+@media screen and (max-width: 575px) {
+	.card {
+        margin-bottom: 25px;
+    }
+    .wrapper {
+        height: 125px;
+    }
+    .icon_students {
+        max-height: 66px;
+    }
+    .icon_brain {
+        max-height: 81px;
+    }
+    .icon_time {
+        max-height: 76px;
+    }
+    .icon_tablet {
+        max-height: 91px;
+    }
+    
+    .icon_file {
+        max-height: 81px;
+    }
+}

@@ -1,0 +1,59 @@
+.kidsQuestion {
+    padding: 75px 0 35px;
+}
+
+.kidsQuestion h2:before {
+    content: '';
+    display: block;
+    width: 73px;
+    height: 5px;
+    background: #F23F3F;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    margin: 0 auto 26px;
+}
+
+.kidsQuestion img {
+    opacity: 1;
+}
+
+.kidsQuestion p {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+/* ------- Media Queries ------- */
+
+/* 991-1199px */
+@media screen and (max-width: 1199px) {
+
+}
+
+/* 767-991px */
+@media screen and (max-width: 991px) {
+    .kidsQuestion p {
+        font-size: 15px;
+    }
+}
+
+/* 575-767px */
+@media screen and (max-width: 767px) {
+    .kidsQuestion h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .kidsQuestion {
+        padding: 45px 0 20px;
+    }
+}
+
+/* 320-575px */
+@media screen and (max-width: 575px) {
+    .kidsQuestion img {
+        width: 40px;
+        height: 40px;
+    }
+    .kidsQuestion p {
+        font-size: 13px;
+    }
+}

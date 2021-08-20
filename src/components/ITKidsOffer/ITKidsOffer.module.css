@@ -1,0 +1,95 @@
+.ITKidsOffer {
+    padding: 85px 0 75px;
+}
+
+.ITKidsOffer h1 {
+    margin-bottom: 18px;
+}
+
+.ITKidsOffer span {
+    font-weight: 900;
+}
+
+.rocket {
+    opacity: 1;
+    top: -36px;
+    left: 282px;
+    width: 170px;
+}
+
+.circle {
+    opacity: 1;
+    width: 90px;
+    top: 110px;
+    right: 200px;
+}
+
+.ITKidsOffer p {
+    margin: 25px auto 0;
+    max-width: 780px;
+    line-height: 2.25em;
+}
+
+/* ------- Media Queries ------- */
+
+/* 991-1199px */
+@media screen and (max-width: 1199px) {
+    .ITKidsOffer {
+        padding-top: 130px;
+    }
+    .ITKidsOffer h1 {
+        font-size: 33px;
+    }
+    .rocket {
+        top: -22px;
+        left: 193px;
+    }
+    .ITKidsOffer p {
+        font-size: 16px;
+    }
+}
+
+/* 767-991px */
+@media screen and (max-width: 991px) {
+    .rocket {
+        top: 3px;
+        left: 102px;
+        width: 130px;
+    }
+}
+
+/* 575-767px */
+@media screen and (max-width: 767px) {
+    .ITKidsOffer {
+        padding: 100px 0 25px;
+    }
+    .ITKidsOffer h1 {
+        font-size: 30px;
+    }
+    .pic {
+        height: 200px;
+    }
+    .rocket {
+        top: -13px;
+        left: 66px;
+        width: 105px;
+    }
+    .ITKidsOffer p {
+        font-size: 14px;
+    }
+}
+
+/* 320-575px */
+@media screen and (max-width: 575px) {
+    .ITKidsOffer h1 {
+        font-size: 20px;
+    }
+    .rocket {
+        top: -1px;
+        left: -20px;
+        width: 95px;
+    }
+    .ITKidsOffer p {
+        font-size: 13px;
+    }
+}

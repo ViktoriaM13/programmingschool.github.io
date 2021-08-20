@@ -1,0 +1,31 @@
+.reviews {
+    padding: 80px 0 75px;
+}
+
+.block {
+    border-radius: 30px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.25);
+    height: 685px;
+}
+
+/* ------- Media Queries ------- */
+
+/* 991-1199px */
+@media screen and (max-width: 1199px) {
+    .reviews.reviewsPage {
+        padding: 130px 0 75px;
+    }
+	.block {
+        height: 620px;
+    }
+}
+
+/* 575-767px */
+@media screen and (max-width: 767px) {
+	.reviews {
+        padding: 70px 0 35px;
+    }
+    .reviews.reviewsPage {
+        padding-top: 100px;
+    }
+}

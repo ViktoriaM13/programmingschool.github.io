@@ -1,0 +1,89 @@
+.header {
+  min-height: 100vh;
+  padding: 50px 0;
+}
+
+.sceneDots {
+  position: absolute;
+  right: -176px;
+  bottom: -168px;
+}
+
+.wrapper {
+  padding: 25px 39px 122px 53px;
+}
+
+.offer {
+  padding-top: 21px;
+  max-width: 540px;
+}
+
+.text {
+  line-height: 1.6em;
+  margin: 14px 0 38px;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  max-width: 413px;
+}
+
+/* ------- Media Queries ------- */
+
+/* 991-1199px */
+@media screen and (max-width: 1199px) {
+	.header h1 {
+    font-size: 31px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .img {
+    max-width: 370px;
+  }
+}
+
+/* 767-991px */
+@media screen and (max-width: 991px) {
+  .header {
+    padding: 100px 0 80px;
+    min-height: auto;
+  }
+  .wrapper {
+    padding: 0;
+  }
+  .offer {
+    padding-top: 5px;
+  }
+  .header h1 {
+    font-size: 28px;
+  }
+  .text {
+    font-size: 15px;
+    margin: 12px 0 25px;
+  }
+  .img {
+    max-width: 330px;
+  }
+}
+
+/* 575-767px */
+@media screen and (max-width: 767px) {
+	.img {
+    max-width: 310px;
+  }
+}
+
+/* 320-575px */
+@media screen and (max-width: 575px) {
+  .header {
+    padding-bottom: 50px;
+  }
+  .header h1 {
+    font-size: 20px;
+  }
+  .text {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,185 @@
+.itKids h2 {
+    margin-bottom: 14px;
+}
+
+.itKids h2:before {
+    content: '';
+    display: block;
+    width: 73px;
+    height: 5px;
+    background: #F23F3F;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    margin: 0 auto 26px;
+}
+
+.title {
+    margin-bottom: 66px;
+}
+
+.offer {
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.itKids h3 {
+    font-weight: 600;
+    font-size: 24px;
+    max-width: 295px;
+}
+
+.offer p {
+    max-width: 307px;
+    margin: 12px 0 0;
+    line-height: 1.85em;
+}
+
+.block {
+    padding: 12px 0 34px 95px;
+    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    margin-bottom: 30px;
+}
+
+.time {
+    font-weight: 500;
+    font-size: 16px;
+    padding-right: 21px;
+}
+
+.itKids h4 {
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 27px;
+    margin: 8px 0 27px;
+    padding: 17px 24px;
+}
+
+.prof h4 {
+    background: #847AC5;
+}
+
+.lite h4 {
+    background: #72C457;
+}
+
+.block ul {
+    line-height: 1.25em;
+    padding: 0 0 0 11px;
+    max-width: 350px;
+}
+
+.block ul p {
+    line-height: 1.25em;
+    margin: 0 0 0 9px;
+}
+
+.block span.price {
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 21px;
+}
+
+.text {
+    max-width: 476px;
+    margin: 58px auto 0;
+    font-size: 18px;
+}
+
+/* ------- Media Queries ------- */
+
+/* 991-1199px */
+@media screen and (max-width: 1199px) {
+    .title {
+        margin-bottom: 40px;
+    }
+    .itKids h2 {
+        margin-bottom: 10px;
+    }
+    .block {
+        padding-left: 45px;
+    }
+    .text {
+        font-size: 17px;
+    }
+}
+
+/* 767-991px */
+@media screen and (max-width: 991px) {
+    .offer {
+        font-size: 15px;
+    }
+    .block {
+        padding-left: 26px;
+    }
+    .block ul {
+        padding-right: 11px;
+        max-width: 100%;
+    }
+    .text {
+        margin-top: 40px;
+    }
+}
+
+/* 575-767px */
+@media screen and (max-width: 767px) {
+    .title {
+        margin-bottom: 14px;
+    }
+    .itKids h2 {
+        font-size: 20px;
+    }
+    .title p {
+        font-size: 14px;
+    }
+    .itKids h3 {
+        font-size: 18px;
+    }
+    .offer {
+        margin-bottom: 20px;
+    }
+    .offer p {
+        max-width: 330px;
+        margin: 10px auto 0;
+    }
+    .time {
+        font-size: 14px;
+    }
+    .itKids h4 {
+        font-size: 18px;
+    }
+    .block ul p {
+        font-size: 15px;
+    }
+    .block span.price {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .itKids h3 {
+        max-width: 100%;
+    }
+    .text {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+    .detail {
+        font-size: 14px;
+    }
+}
+
+/* 320-575px */
+@media screen and (max-width: 575px) {
+    .itKids h2 {
+        font-size: 19px;
+    }
+    .title p {
+        font-size: 13px;
+    }
+    .itKids h3 {
+        font-size: 16px;
+    }
+    .offer {
+        font-size: 14px;
+    }
+}

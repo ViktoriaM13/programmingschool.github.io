@@ -1,0 +1,97 @@
+.priceWebAccelerated {
+    padding: 31px 0;
+}
+
+.priceWebAccelerated h2:before {
+    content: '';
+    display: block;
+    width: 73px;
+    height: 5px;
+    background: #F23F3F;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    margin: 0 auto 26px;
+}
+
+.card {
+    padding: 59px 36px 49px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+}
+
+.card.cardRed {
+    padding: 81px 36px 66px;
+    color: #ffffff;
+    background: #F23F3F;
+}
+
+.card h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card .text {
+    min-height: 110px;
+    margin: 36px 0 12px;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.25em;
+    margin: 0 0 14px 0;
+}
+
+.card span {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.img {
+    top: 344px;
+    right: -186px;
+}
+
+/* ------- Media Queries ------- */
+
+/* 991-1199px */
+@media screen and (max-width: 1199px) {
+    .img {
+        top: -41px;
+        right: 214px;
+        width: 80px;
+    }
+}
+
+/* 767-991px */
+@media screen and (max-width: 991px) {
+    .card {
+        margin-bottom: 24px;
+    }
+    .img {
+        top: -35px;
+        right: 112px;
+    }
+}
+
+/* 575-767px */
+@media screen and (max-width: 767px) {
+    .priceWebAccelerated h2 {
+        font-size: 20px;
+    }
+    .img {
+        top: -47px;
+        right: 53px;
+    }
+}
+
+/* 320-575px */
+@media screen and (max-width: 575px) {
+    .card .text {
+        min-height: 90px;
+    }
+    .img {
+        top: -40px;
+        right: 10px;
+        width: 60px;
+    }
+}

@@ -1,0 +1,65 @@
+.diploma {
+    padding: 44px 0;
+}
+
+.diploma h2:before {
+    content: '';
+    display: block;
+    width: 73px;
+    height: 5px;
+    background: #F23F3F;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    margin: 0 auto 26px;
+}
+
+.diploma img {
+    width: 273px;
+    height: 273px;
+    border-radius: 50%;
+}
+
+.diploma p {
+    max-width: 570px;
+    margin: 42px auto 18px;
+}
+
+.diploma span {
+    font-size: 15px;
+    /* color: #383838; */
+    max-width: 918px;
+}
+
+/* ------- Media Queries ------- */
+
+/* 991-1199px */
+@media screen and (max-width: 1199px) {
+
+}
+
+/* 767-991px */
+@media screen and (max-width: 991px) {
+
+}
+
+/* 575-767px */
+@media screen and (max-width: 767px) {
+    .diploma h2 {
+        font-size: 20px;
+    }
+    .diploma img {
+        width: 190px;
+        height: 190px;
+    }
+    .diploma p {
+        font-size: 14px;
+    }
+    .diploma span {
+        font-size: 11px;
+    }
+}
+
+/* 320-575px */
+@media screen and (max-width: 575px) {
+
+}

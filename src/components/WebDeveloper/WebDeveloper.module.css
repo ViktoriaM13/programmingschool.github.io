@@ -1,0 +1,41 @@
+.webDev {
+    padding: 85px 0;
+}
+
+.webDev h1 {
+    margin: 0;
+}
+
+/* ------- Media Queries ------- */
+
+/* 991-1199px */
+@media screen and (max-width: 1199px) {
+    .webDev {
+        padding-top: 130px;
+    }
+}
+
+/* 767-991px */
+@media screen and (max-width: 991px) {
+    .webDev h1 {
+        font-size: 27px;
+    }
+}
+
+/* 575-767px */
+@media screen and (max-width: 767px) {
+    .webDev {
+        padding-top: 100px;
+    }
+    .webDev h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* 320-575px */
+@media screen and (max-width: 575px) {
+    .webDev {
+        padding-bottom: 60px;
+    }
+}
