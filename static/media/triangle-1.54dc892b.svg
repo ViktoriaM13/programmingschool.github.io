@@ -1,0 +1,21 @@
+<svg width="169" height="135" viewBox="0 0 169 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="169" height="135">
+<path d="M169 0.5L0 91.5L144 134.5L169 0.5Z" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<line x1="-31" y1="1.5" x2="219" y2="1.5" stroke="#383838"/>
+<line x1="-31" y1="11.5" x2="219" y2="11.5" stroke="#383838"/>
+<line x1="-31" y1="21.5" x2="219" y2="21.5" stroke="#383838"/>
+<line x1="-31" y1="31.5" x2="219" y2="31.5" stroke="#383838"/>
+<line x1="-31" y1="41.5" x2="219" y2="41.5" stroke="#383838"/>
+<line x1="-31" y1="51.5" x2="219" y2="51.5" stroke="#383838"/>
+<line x1="-31" y1="61.5" x2="219" y2="61.5" stroke="#383838"/>
+<line x1="-31" y1="71.5" x2="219" y2="71.5" stroke="#383838"/>
+<line x1="-31" y1="81.5" x2="219" y2="81.5" stroke="#383838"/>
+<line x1="-31" y1="91.5" x2="219" y2="91.5" stroke="#383838"/>
+<line x1="-31" y1="101.5" x2="219" y2="101.5" stroke="#383838"/>
+<line x1="-31" y1="111.5" x2="219" y2="111.5" stroke="#383838"/>
+<line x1="-31" y1="121.5" x2="219" y2="121.5" stroke="#383838"/>
+<line x1="-31" y1="131.5" x2="219" y2="131.5" stroke="#383838"/>
+</g>
+</svg>
